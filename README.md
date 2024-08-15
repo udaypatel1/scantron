@@ -26,6 +26,33 @@ Run in quiet mode and generate a `scantron.json` file in your current directory
 scantron -d
 ```
 
+Example JSON Output
+
+```json
+{
+  "py": [
+    "some/path/to/a/file.py",
+    "another/path/to/a/file.py"
+  ],
+
+  "ts": [
+    "oh/look/a/typescript/file.ts",
+    "another/one.ts"
+  ],
+
+  "cpp": [
+    "why/is/a/c/plus/plus/file/here.cpp"
+  ]
+
+  "go": [
+    "golang/is/nice.go",
+    "more/people/should/learn/go.go",
+    "go/should/be/in/university/cirriculums.go",
+    "i/still/kind/of/like/rust/better.go"
+  ]
+}
+```
+
 #### Potential Use Cases
 
 * You can use the generated `scantron.json` file in your CI/CD pipeline for custom DAST scans or other vulnerability checks
