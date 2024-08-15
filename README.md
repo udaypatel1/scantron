@@ -59,4 +59,10 @@ Example JSON Output
 * Keep an organized, running file of all file types that exist in your codebase
 * Complex file management tracking purposes
 
+#### TODO
+
+* Move CLI logic to separate file
+* Add other useful flags / subcommands
+* Benchmarking for speed / potential for multithreading
+
 > Inspired by [this repo](https://github.com/saarthdeshpande/github-repo-parser)

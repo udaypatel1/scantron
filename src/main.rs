@@ -9,6 +9,8 @@ struct FileType {
 }
 
 fn main() {
+
+    // TODO: extract CLI logic in separate file
     let matches = App::new("scantron")
         .version("1.0")
         .author("Your Name")
