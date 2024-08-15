@@ -38,7 +38,7 @@ fn main() {
         let file_type = path.extension().and_then(|ext| ext.to_str()).unwrap_or("");
         let file_type = file_type.to_lowercase().to_string();
 
-        if file_type != "" {
+        if !file_type.is_empty() {
             file_types.entry(file_type.clone()).or_insert(Vec::new());
             file_types.get_mut(&file_type.clone()).unwrap().push(path.to_string_lossy().to_string());
         }
