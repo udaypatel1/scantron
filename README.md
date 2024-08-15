@@ -47,7 +47,7 @@ Example JSON Output
   "go": [
     "golang/is/nice.go",
     "more/people/should/learn/go.go",
-    "go/should/be/in/university/cirriculums.go",
+    "go/should/be/in/university/cirricula.go",
     "i/still/kind/of/like/rust/better.go"
   ]
 }
