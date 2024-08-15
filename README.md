@@ -21,3 +21,5 @@ Run in quiet mode and generate a `scantron.json` file in your current directory
 ```bash
 scantron -d
 ```
+
+> Inspired by [this repo](https://github.com/saarthdeshpande/github-repo-parser)
